@@ -3,18 +3,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ChakraProvider } from '@chakra-ui/react'
+import Head from 'next/head'
 
 import Home from './home/Home'
 
-function App() {
+export default function App() {
 
   return (
-    <ChakraProvider>
       <Home />
-    </ChakraProvider>
   )
 }
-
-export default App
-

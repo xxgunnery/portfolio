@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import Navbar from '../../components/Navbar'
 import Form from './components/Form'
 import Wildy from './components/Wildy'
 import playerDataParse from './playerDataParse'
@@ -30,13 +31,16 @@ export default function WildyData() {
   }
 
   return (
-    <div className="container2">
-      <div id="maximized" className="maximizedMap">
-        <button onClick={minimizeMap}>MINIMIZE MAP</button>
-        <Wildy canvasDimensions={{height:"1350px", width: "1384px", id: "maximized"}}/>
+    <div>
+      <Navbar />
+      <div className="container2">
+        <div id="maximized" className="maximizedMap">
+          <button onClick={minimizeMap}>MINIMIZE MAP</button>
+          <Wildy canvasDimensions={{height:"1350px", width: "1384px", id: "maximized"}}/>
+        </div>
+        <Form tab={tab} setTab={setTab} maximized={maximized} setMaximized={setMaximized} playerData={playerData}/>
+        <Wildy canvasDimensions={{height:"800px", width: "820px", id: "regular"}}/>
       </div>
-      <Form tab={tab} setTab={setTab} maximized={maximized} setMaximized={setMaximized} playerData={playerData}/>
-      <Wildy canvasDimensions={{height:"800px", width: "820px", id: "regular"}}/>
     </div>
   )
 }

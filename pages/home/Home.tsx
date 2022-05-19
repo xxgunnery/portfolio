@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <VStack>
       <Navbar />
-      <Flex direction="column">
+      <Flex width="100%" direction={"column"} alignItems={"center"}>
         <InfoBlurb />
         <DevTimeline />
         <Apps />

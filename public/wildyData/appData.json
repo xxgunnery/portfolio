@@ -1,0 +1,8 @@
+{
+    "Wildy Data": {
+        "Title": "WILDY DATA",
+        "Description": "WildyData is a React app for Old School Runescape which creates a heatmap of players that I see in the wilderness. Uses an unreleased RuneLite plugin to collect data as I explore the wilderness.",
+        "Image": "/wildyData/wildy.png",
+        "Link": "/wildyData"
+    }
+}
