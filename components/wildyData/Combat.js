@@ -1,6 +1,6 @@
 import React from "react"
 import CombatBrackets from "./CombatBrackets"
-import playerDataParse from "../playerDataParse"
+import playerDataParse from "./playerDataParse"
 
 export default function Combat(props) {
     const playerData = props.playerData

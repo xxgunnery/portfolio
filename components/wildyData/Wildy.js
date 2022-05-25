@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import wildyPic from "../../../public/wildyData/wildy.png"
+import wildyPic from "../../public/wildyData/wildy.png"
 
 export default function Wildy(props) {
     let id = "wildyDots"

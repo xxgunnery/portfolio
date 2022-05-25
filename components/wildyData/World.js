@@ -1,6 +1,6 @@
 import React from "react"
 import Worlds from "./Worlds"
-import playerDataParse from "../playerDataParse"
+import playerDataParse from "./playerDataParse"
 
 export default function World(props) {
     const playerData = props.playerData
