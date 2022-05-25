@@ -17,12 +17,16 @@ function AppCard(props) {
 
 export default function Apps() {
   return (
-    <SimpleGrid width="90%" columns={3} spacing="40px">
-      <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
-      <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
-      <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
-    
-    </SimpleGrid>
-    
+    <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mb="10px" mt="10px" p="20px 0px 20px 0px">
+      <Heading mb={{base:"15px", md:"30px"}} textAlign="center" bg="white" p="10px 20px 10px 20px" borderRadius="40px" border="3px solid black"
+      fontSize={{base:"25px", md:"45px"}}>
+        My Applications
+      </Heading>
+      <SimpleGrid width="90%" columns={3} spacing="40px">
+        <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
+        <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
+        <AppCard col={[3,3,3,3,1]} appName={"Wildy Data"}/>
+      </SimpleGrid>
+    </Flex>
   )
 }

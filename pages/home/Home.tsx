@@ -11,8 +11,10 @@ import DevTimeline from "./components/DevTimeline"
 export default function Home() {
   
   return (
-    <VStack>
-      <Navbar />
+    <VStack bg="#E0E0E0">
+      {
+      //<Navbar />
+      }
       <Flex width="100%" direction={"column"} alignItems={"center"}>
         <InfoBlurb />
         <DevTimeline />

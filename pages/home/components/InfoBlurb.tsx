@@ -21,11 +21,11 @@ export default function InfoBlurb() {
     }
     return (
         <VStack width={["95%","80%"]} justifyContent={"center"} alignItems={"center"}>
-            <Box display="block" w="100%" p={"15px 40px 15px 40px"} boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.5)" borderRadius="70px" bg="#FFE0B2">
+            <Box display="block" w="100%" p={"15px 0px 15px 0px"} boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.5)" borderRadius="70px" bg="#FFE0B2">
                 <Flex display={blurbVisibility}  justifyContent={"center"} alignItems={"center"} flexWrap="wrap">
                     <Image alignSelf="center" boxSize="180px" className="info__image" src="./home/Paul_PFP.png"/>
-                    <VStack margin="0px 40px 0px 40px" minW={["300px","300px","500px","800px","auto"]} textAlign="center" w="60%">
-                        <Heading>Welcome to my portfolio website!</Heading>
+                    <VStack margin={{base:"0px", md: "0px 40px 0px 40px"}} minW={["300px","300px","500px","800px","auto"]} textAlign="center" w="60%">
+                        <Heading>Welcome to the portfolio website of Paul D'Antonio</Heading>
                         <Text fontSize="20px">
                             My name is Paul D'Antonio, I am a self-taught web developer from Syracuse, NY. I specialize in front-end development utilizing React.
                         </Text>

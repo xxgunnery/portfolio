@@ -1,0 +1,74 @@
+{
+    "2013": {
+        "Title": "First Exposure to Computer Science",
+        "Languages": "C++",
+        "Description": {
+            "0": "At my community college, I took a class on C++ taught by an ex-employee of Lockheed Martin, an aerospace, defense and information security company. We did entirely console programs where we learned about basic programming logic. In this class, I took note of how easy it was to build useful things on a computer.",
+            "1": "For example, I could create a custom calculator which did the same math as the calculator that we paid for to use in school!"
+        }
+    },
+    "2014": {
+        "Title": "Transferring to Penn State",
+        "Languages": "HTML",
+        "Description": {
+            "0": "I was accepted into Penn State University in 2014 and had additional exposure to programming through my courses there. Every time I had a computer programming course, my interest peaked and I was thankful to be learning more.",
+            "1": "I took an engineering design course which gave me my first experience in HTML. I created a student profile where I featured my projects that we worked on in the class. HTML was very exciting for me because I loved doing all sorts of things on the internet and now I was there, demystifying how it worked."
+        }
+    },
+    "2015": {
+        "Title": "Chemical Thermodynamics & Computation",
+        "Languages": "Wolfram Language",
+        "Description": {
+            "0": "I took a course in chemical thermodynamics that was the hardest course that I took throughout university. I had a professor who said 'engineers don't use Excel, they must use more advanced tools' and forced us to use Wolfram Mathematica. I initially had no idea what I was doing, but eventually grew to love it! I began to understand the power of the symbolic, high level programming language and I've taken Mathematica with me ever since as my favorite computational tool.",
+            "1": "I'm absolutely still a noob and don't mess around with a lot of very high level math & science, however it just feels amazing to have a programmable notebook handy."
+        }
+    },
+    "2016": {
+        "Title": "The DIY Resource, Article Initiative",
+        "Languages": "HTML, CSS, JavaScript, PHP, MySQL",
+        "Description": {
+            "0": "After a year and a half at Penn State, I was preparing to start my two-semester long senior design course. One of the other courses I needed, a field Geology course was very exclusive and I failed to register for it in time before it was completely filled.I decided - to hell with it - and I took a year off unsure if I wanted to come back to my major, as I didn't like it much anyways.",
+            "1": "I decided to try and start a business. My business idea was to share DIY projects on a website behind a subscription service and I didn't want to pay for anything and I wanted the opportunity to make it as custom as possible.",
+            "2": "As soon as I left my internship which I had in the summer of 2015, I began a course learning HTML and CSS hosted free through EdX.com. I absolutely loved the course and proceeded to create my own website, www.thediyresource.com based on the knowledge I received. I learned PHP from a series on YouTube where the instructor was teaching how to create a login system. I also put together some basic JavaScript knowledge. In the end, my website was complete with a design I loved and had a login system, some calculators, embedded videos, animations, all sorts of stuff.",
+            "3": "I was livestreaming my programming on Twitch and I learned just how much of a noob I was. A viewer in my chat pointed out that he could access my admin account because my PHP scripts were sending unhashed passwords to the page when I authenticated my users. I may have not been ready to put this website out there, but I learned a lot from this experience and I'm thankful for it.",
+            "4": "During this year off, I quit doing The DIY Resource because I had no customer acquisition. I didn't approach the market right. The Article Initiative though, was an idea I had 'to improve existing content on the internet'. I wanted to create a suite webapps where I assisted users in calculating things, planning, and processing data related to different content on the internet.",
+            "5": "For example, I discovered a crockpot recipe blog which my wife and I loved. I created an application to support the blog which took a number of recipes and generated a shopping list based on the recipes you wanted to choose. I actually reached out to the bloggers to see if they wanted to use my app (link it on their blogs). They loved my work and actually contracted me out to try and build a more comprehensive, polished UI to get & print shopping lists. I ended up producing a pretty good application by the end - it just took me too long and they ended up dropping the project."
+        }
+    },
+    "2018": {
+        "Title": "Graduating Penn State",
+        "Languages": "C++",
+        "Description": {
+            "0": "I didn't do much with programming during this time. I returned to PSU after my year off and finished up, eventually graduating in May 2018.",
+            "1": "I just wanted to mention - I was forced to take another C++ course during this time. It was the exact same content as my first C++ course, maybe a little bit harder? This course was an absolute breeze even though I didn't remember any C++ from my prior course. I felt very confident because of my year working on The DIY Resource, which attests to how much I learned during that time even without university instruction."
+        }
+    },
+    "2019": {
+        "Title": "Working in Mining Engineering",
+        "Languages": "Microsoft VBA, NWA RUN files",
+        "Description": {
+            "0": "After graduating PSU, I started a job utilizing my mining engineering degree. I worked at a mine and I was in a quality assurance position. The work was very difficult for me at first and the demands were intense. I often put in over 20 hours/day where I'd come in to work greeting my boss in the morning and leave work after seeing him again when he'd have a full night sleep in between.",
+            "1": "I leveraged my computer skills here, eventually becoming a go-to guy for issues around my processing plant. I developed a good relationship with IT and was proficient with software utilized by the company. We didn't have Mathematica, so I was forced to do some pretty cool stuff with Excel macros and some automation programming language used for Northwest Analytical Quality Analyst software. I used my UI experience to create essentially software programs for operators at the plant, saving me 20-30 hours/week in time and significant amounts of stress."
+        }
+    },
+    "2021": {
+        "Title": "Programming for Me",
+        "Languages": "Python, JavaScript, PHP, MySQL, jQuery",
+        "Description": {
+            "0": "In late 2020, I quit my job in quality assurance because I felt like it was taking too much from me, I didn't enjoy most  of the responsibilities and I had very little room for vertical movement in the company.",
+            "1": "After I quit, I worked on many projects 'for me', whether it was purely hobbyist, or supporting my small business which I still run today with my wife - more details at www.coddledcanine.com. I really advanced my JavaScript at this time, picking up jQuery and creating some GUIs to process data and things like that. See Coddled Admin.",
+            "2": "I also added Python to my programming list. I used PyAutoGUI to create a macro to automate some processing on our WooCommerce website. I also made a webscraper where I gathered Axie Market Data for a popular web3 game called Axie Infinity. See Axie Market Data.",
+            "3": "Speaking of web3 - it was April 2021 where I first became truly interested in web3. I discovered Ethereum for the first time and I've been on board ever since. I listen to Bankless, use several DApps, follow NFT gaming & try to pick up technical details around blockchain as I go."
+        }
+    }, "2022": {
+        "Title": "Cathing Up With The Times!",
+        "Languages": "NodeJS, React.JS, NextJS, TypeScript, Chakra UI, Express, Yarn",
+        "Description": {
+            "0": "I went through another job and ended up stuck on the thought - 'Hey. I think I really love programming, why don't I just go for it?'",
+            "1": "I reached out to a programmer who I followed on Twitter asking if they knew of anyone who might be hiring apprentice level software engineers. To my surprise, he gave me an interview for his own company! We talked for a while, discussing how his application works and what technologies I'd be using if I were to work for them. This interview seems to have had a major impact on my mindset. I didn't get the position, but I am pursuing work in software engineering/web3/web development with great enthusiasm.",
+            "2": "My first goal is to catch up with the times. I'm focusing front-end web development, but I also recognize that with my limited knowledge, I might be missing out on some technologies that I'd really enjoy! I'm grinding React, NodeJS, NextJS and TypeScript. I seem to add more to the list every week. I want to get some experience and start working!",
+            "3": "My strategy over the next few months has the theme of collaboration. I believe that my weaknesses mainly lie in that I have not developed software with others. I'm new dealing with requirements for quality, security, scaleability and standard collaboration techniques that you might see on GitHub such as branching, merging, PRs, etc.",
+            "4": "My goal is eventually to transfer to web3, learning Solidity development and deep diving. I'd love to gain enough knowledge eventually to audit EVM compatible smart contracts. Overall I'm very excited for my web development journey and I thank you for reading this far!"
+        }
+    }
+}
