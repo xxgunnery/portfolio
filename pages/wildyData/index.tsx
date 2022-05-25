@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import Navbar from '../../components/Navbar'
-import Form from './components/Form'
-import Wildy from './components/Wildy'
+import Form from '../../components/wildyData/Form'
+import Wildy from '../../components/wildyData/Wildy'
 import playerDataParse from './playerDataParse'
 
 //@ts-ignore
