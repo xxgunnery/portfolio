@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client'
 
 import { Container, Flex, VStack } from '@chakra-ui/react'
 
-import Navbar from '../../components/Navbar'
-import InfoBlurb from './components/InfoBlurb'
-import Apps from './components/Apps'
-import DevTimeline from "./components/DevTimeline"
+import Navbar from '../Navbar'
+
+import InfoBlurb from './InfoBlurb'
+import Apps from './Apps'
+import DevTimeline from "./DevTimeline"
 
 export default function Home() {
   

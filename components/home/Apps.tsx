@@ -1,7 +1,7 @@
 import React from "react"
 //import Link from "next/link"
 import { Flex, Link, Text, Image, SimpleGrid, GridItem, Heading } from "@chakra-ui/react"
-import appData from "../../../public/wildyData/appData.json"
+import appData from "../appData.json"
 
 function AppCard(props) {
   return (
