@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  background-color: #616161;
+  background-color:#E0E0E0!important;
   font-size: 22px;
   font-family: "oxygen";
   -webkit-font-smoothing: antialiased;
@@ -17,16 +17,10 @@ body {
 }
 .container__application {
   display: flex;
+  position: relative;
   align-content: center;
   justify-content: center;
   width: 100%;
-}
-.container__application > span {
-  width: 900px;
-  border-radius: 30px;
-  height: auto!important;
-  z-index: 0;
-  position: absolute!important;
 }
 
 .application__background {
@@ -39,7 +33,6 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .wildyImg {
-  width: 900px;
   border-radius: 30px;
   height: auto;
   z-index: 0;
@@ -85,7 +78,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
   background-color: #1a227e85;
   height: 100%;
 }

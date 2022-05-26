@@ -12,7 +12,7 @@ import DevTimeline from "./DevTimeline"
 export default function Home() {
   
   return (
-    <VStack bg="#E0E0E0">
+    <VStack>
       {
       //<Navbar />
       }

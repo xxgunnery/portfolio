@@ -11,6 +11,7 @@ export default function Combat(props) {
     )
 
     React.useEffect(() => {
+        console.log("COMBAT")
         playerDataParse(props.playerData, {form: "Combat", value: formData.combat}, false)
     }, [formData])
 

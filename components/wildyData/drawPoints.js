@@ -1,5 +1,7 @@
 export default function drawPoints(points, maximized) {
+
     let canvas = document.getElementById("wildyDots")
+
     if(maximized) {
         canvas = document.getElementById("wildyDotsMaximized")
     }
@@ -29,7 +31,7 @@ export default function drawPoints(points, maximized) {
 
             ctx.fillStyle = hsla
 
-            ctx.fillRect(x, y, 4, 4)
+            ctx.fillRect(x, y, 2, 2)
         }   
     }
 }

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import wildyPic from "../../public/wildyData/wildy.png"
 
 export default function Wildy(props) {
+
     let id = "wildyDots"
     if(props.canvasDimensions.id === "maximized") {
         id = "wildyDotsMaximized"
@@ -19,10 +20,10 @@ export default function Wildy(props) {
     let canvasMarginBottom = (canvasHeight/1350)*25;
 
     return(
-        <div style={{height: imageHeight}}className="container__application" id="application">
+        <div style={{width: imageHeight,height: imageHeight}} className="container__application" id="application">
             <div style={props.canvasDimensions} className="application__background"></div>
-            <Image style={props.canvasDimensions} className="wildyImg" src={wildyPic}/>
-            <canvas style={{marginLeft: canvasMarginLeft, marginBottom: canvasMarginBottom }}height={canvasHeight} width={canvasWidth} id={id}></canvas>
+            <Image className="wildyImg" layout="fill" src={wildyPic}/>
+            <canvas style={{marginLeft: canvasMarginLeft, marginBottom: canvasMarginBottom }} height={canvasHeight} width={canvasWidth} id={id}></canvas>
         </div>
     )
 }

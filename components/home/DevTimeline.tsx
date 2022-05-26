@@ -18,7 +18,7 @@ function TimeBlurb(props) {
   }
 
   return (
-    <Box w="100%" cursor="pointer" top={calcedHeight} position="absolute" id={`${props.side}-${props.year}`} onClick={props.closeTimeBlurb} boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.8)" borderRadius="10px" bg="#FFB74D" p={{base: "8px", md: "20px"}} display="flex" flexDirection="column" textAlign="center" justifyContent="center" alignItems="center">
+    <Box key={props.year} w="100%" cursor="pointer" top={calcedHeight} position="absolute" id={`${props.side}-${props.year}`} onClick={props.closeTimeBlurb} boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.8)" borderRadius="10px" bg="#FFB74D" p={{base: "8px", md: "20px"}} display="flex" flexDirection="column" textAlign="center" justifyContent="center" alignItems="center">
         <Heading style={{pointerEvents :"none"}} pb="5px" borderRadius="10px 10px 0px 0px" bg="white" w="100%" border="3px solid black"
         fontSize={{base: "12px", md: "25px"}}>
           {`${props.year}: ${props.title}`}
@@ -72,14 +72,14 @@ export default function DevTimeline() {
 
     if(counter%2 == 1) {
       years.leftYears.push(
-        <TimeBlurb side="left" closeTimeBlurb={closeTimeBlurb} key={year} year={year} title={timelineData[year].Title} languages={timelineData[year].Languages} description={timelineData[year].Description} />
+        <TimeBlurb side="left" key={year} closeTimeBlurb={closeTimeBlurb} year={year} title={timelineData[year].Title} languages={timelineData[year].Languages} description={timelineData[year].Description} />
       )
-      arrows.leftArrows.push(<Box h="5px" w="35%" left="0" top={calcedHeight} position="absolute" bg="black"></Box>)
+      arrows.leftArrows.push(<Box key={year} h="5px" w="35%" left="0" top={calcedHeight} position="absolute" bg="black"></Box>)
     } else {
       years.rightYears.push(
-        <TimeBlurb side="right" closeTimeBlurb={closeTimeBlurb} key={year} year={year} title={timelineData[year].Title} languages={timelineData[year].Languages} description={timelineData[year].Description} />
+        <TimeBlurb side="right" key={year} closeTimeBlurb={closeTimeBlurb} year={year} title={timelineData[year].Title} languages={timelineData[year].Languages} description={timelineData[year].Description} />
       )  
-      arrows.leftArrows.push(<Box h="5px" w="35%" right="0" top={calcedHeight} position="absolute" bg="black"></Box>)    
+      arrows.leftArrows.push(<Box key={year} h="5px" w="35%" right="0" top={calcedHeight} position="absolute" bg="black"></Box>)    
     }
   }
 

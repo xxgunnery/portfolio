@@ -2,6 +2,8 @@ import drawPoints from "./drawPoints"
 
 export default function playerDataParse(playerData, config, maximized) {
 
+  console.log("Parsing player data to paint on map")
+
   const numPoints = playerData.length
   let worldPoints = []
 
@@ -14,7 +16,6 @@ export default function playerDataParse(playerData, config, maximized) {
         const worldPointX = firstOp[0].replace(",","").trimEnd()
         const secOp = firstOp[1].split("plane=")
         const worldPointY = secOp[0].replace(",","").trimEnd()
-        
 
         worldPoints.push([worldPointX,worldPointY,combatLvl,world].map(val => parseInt(val)))
       }
