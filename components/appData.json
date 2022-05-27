@@ -2,7 +2,15 @@
     "Wildy Data": {
         "Title": "WILDY DATA",
         "Description": "WildyData is a React app for Old School Runescape which creates a heatmap of players that I see in the wilderness. Uses an unreleased RuneLite plugin to collect data as I explore the wilderness.",
+        "HOWTO": "This app is best viewed on Desktop for sure. Utilize the form on the left to control filtering of points to be drawn on the map.Maximize map button creates a much larger image for more detail!",
         "Image": "/wildyData/wildy.png",
         "Link": "/wildyData"
+    },
+    "React Learning": {
+        "Title": "REACT LEARNING",
+        "Description": "This app is where I was documenting my learning of React. During courses, I made a UI which was capable of running AND displaying code examples for various functionality",
+        "HOWTO": "Click the 'Mosh ES6' tab for code examples from when I was programming for an ES6 JavaScript tutorial by Mosh Hamedani. Click the 'Ziroll React' tab to explore examples for when I was programming for a React tutorial by Rob Ziroll!",
+        "Image": "/react-learning/tenzies.png",
+        "Link": "/react-learning"
     }
 }

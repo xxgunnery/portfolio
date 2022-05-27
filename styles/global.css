@@ -246,3 +246,392 @@ body {
   border: 4px solid black;
   border-radius: 50px;
 }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.buttonContainer {
+  border-bottom: 3px solid black;
+}
+.commands {
+  display: inline-block;
+  margin-right: 10px;
+}
+.clearButton {
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: #FFC400;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.example {
+  margin-top: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: grey;
+}
+.exampleHeader {
+  font-size: 25px;
+  font-weight: 800;
+  border-bottom: 1px solid black;
+  margin-bottom: 3px;
+}
+.description {
+  font-size: 22px;
+}
+
+.prettyprint {
+  background-color: #EEEEEE;
+  font-size: 1vw;
+}
+
+.hideExample {
+  visibility: hidden;
+  height: 0px;
+}
+
+
+.imgShrink {
+  width: 100px;
+  height: auto;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+.visible {
+  visibility: visible;
+  height: auto;
+}
+
+.travel--container {
+  display: flex;
+}
+.travel--mainimg {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+}
+.travel--information {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.travel--topdata {
+  display: flex;
+  align-items: center;
+}
+.travel--topdata > img {
+  width: 24px;
+  height: auto;
+  margin-right: 4px;
+}
+.travel--topdata > a {
+  font-size: 14px;
+  color: black;
+  margin-left: 15px;
+  background-color: pink;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 100px;
+}
+.travel--information--title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.travel--information--date {
+  font-size: 14px;
+  font-weight: 800;
+}
+.travel--information--description {
+  margin-top: 5px;
+}
+.event--example {
+  background-color: #EEEEEE;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.event--example > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+.event--example > button {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.event--example--count {
+  width: 50px;
+  text-align: center;
+}
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 4px;
+  cursor: pointer;
+}
+.condRender--messages {
+  height: 50px;
+  font-size: 20px;
+}
+.reactForms {
+  display: flex;
+  flex-direction: column;
+}
+
+.reactForms > * {
+  margin-top: 15px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.reactForms2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.reactForms2 > input {
+  font-family: "oxygen";
+  width: 400px;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #424242;
+}
+.reactForms2 > input:focus {
+  outline: none;
+}
+.reactForms2 > .correct {
+  background-color: #A5D6A7;
+}
+.reactForms2 > .incorrect {
+  background-color: #EF9A9A;
+}
+.reactForms2 > input::placeholder {
+  color: black;
+}
+.reactForms2 > div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.reactForms2 > div > input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  outline: 1px solid black;
+  border-radius: 4px;
+}
+.reactForms2 > div > input[type="checkbox"]:checked {
+  content: "";
+  background-color: black;
+  border: 3px solid white;
+}
+.reactForms2 > div > label {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  text-overflow: wrap;
+}
+.reactForms2 > button {
+  width: 100px;
+  padding: 8px;
+  font-family: "oxygen";
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 5px;
+  border: 2px solid black;
+  background-color: #FFB300;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tenzies {
+  position: relative;
+  width: calc(360px * 1);
+  height: calc(379px * 1);
+  margin-left:20px;
+  margin-top:20px;
+  background: #0B2434;
+}
+.tenzies__game--container {
+  position: absolute;
+  width: calc(320px * 1);
+  height: calc(320px * 1);
+  left: calc(20px * 1);
+  top: calc(30px * 1);
+
+  background: #F5F5F5;
+  border-radius: calc(10px * 2);
+}
+.tenzies__game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: calc(252.8px * 1);
+  left: calc(34.56px * .1);
+  top: calc(33.28px * .4);
+}
+.tenzies__game * {
+  margin: 0;
+}
+.tenzies__game__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #2B283A;
+  margin-bottom: 10px;
+}
+.tenzies__game__subheader {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-bottom: 10px;
+  color: #4A4E74;
+}
+.tenzies__game__congratulations {
+  font-size: 30px;
+  position: absolute;
+  background-color: rgb(255, 134, 134);
+  border-radius: 30px;
+  text-align: center;
+  line-height: calc(250.88px);
+  animation-duration: 4s;
+  font-weight: 900;
+  animation-name: congratulations;
+  overflow: hidden;
+  width: 0%;
+}
+@keyframes congratulations {
+  from {
+    font-size: 5px;
+    margin-top: 40%;
+    line-height: calc(250.88px*0.6);
+    width: 30%;
+    height: 20%;
+  }
+  25% {
+    font-size: 45px;
+    margin-top: 25%;
+    line-height: 250.88px;
+    width: 100%;
+    height: 50%;
+  }
+  85% {
+    font-size: 30px;
+    margin-top: 40%;
+    line-height: calc(250.88px*0.6);
+    width: 60%;
+    height: 30%;
+  }
+  to {
+    margin-top: 50%;
+    line-height: 0px;
+    width: 0%;
+    height: 0%;
+  }
+}
+.tenzies__game__board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.tenzies__game__board__die {
+  cursor: pointer;
+
+  width: 30px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  font-size: 20px;
+  font-weight: 800;
+  background: white;
+  border-radius: 8px;
+
+  text-align: center;
+}
+.tenzies__game__board__die--selected {
+  cursor: pointer;
+
+  width: 30px;
+  line-height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 8px;
+  background-color: #A7FFEB;
+
+  text-align: center;
+}
+.tenzies__game__board__die:hover {
+  background-color:#E0F2F1;
+}
+.tenzies__game__roll {
+  cursor: pointer;
+  background: #5035FF;
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border: none;
+  border-radius: 3.81277px;
+  text-align: center;
+  line-height: 30px;
+  width: 250px;
+}
+.visible > pre {
+  font-size: 14px;
+}

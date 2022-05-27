@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
+import AppBlurb from "../../components/AppBlurb"
+import appData from "../../components/appData.json"
 import Navbar from '../../components/Navbar'
 import Form from '../../components/wildyData/Form'
 import Wildy from '../../components/wildyData/Wildy'
@@ -51,6 +53,7 @@ export default function WildyData() {
   return (
     <div>
       <Navbar />
+      <AppBlurb howto={appData['Wildy Data'].HOWTO} title={appData['Wildy Data'].Title}/>
       <Flex w="100%" justifyContent="center" m={{base:"0px 0px 0px 0px",md: "5px 0px 0px 15px" }}>
         <div id="maximized" className="maximizedMap">
           <button onClick={minimizeMap}>MINIMIZE MAP</button>

@@ -85,7 +85,7 @@ export default function DevTimeline() {
 
   return (
     <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mt="10px" p="20px 0px 20px 0px" bg="#757575">
-      <Heading mb="30px" textAlign="center" bg="white" p="10px 20px 10px 20px" borderRadius="40px" border="3px solid black" fontSize={{base:"25px", md:"45px"}}>Development Timeline</Heading>
+      <Heading mb="30px" textAlign="center" bg="white" p="10px 20px 10px 20px" borderRadius="40px" border="3px solid black" fontSize={{base:"25px", md:"35px"}}>Development Timeline</Heading>
       <SimpleGrid justifyItems="center" width="90%" columns={11} spacing="10px">
         <GridItem colSpan={5} w="100%" position="relative">{years.leftYears}</GridItem>
         <GridItem display="flex" justifyContent={"space-between"} w="100%" position="relative" h="1200px">
