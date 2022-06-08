@@ -26,6 +26,9 @@ export default function InfoBlurb() {
                     <Image alignSelf="center" boxSize="180px" className="info__image" src="./home/Paul_PFP.png"/>
                     <VStack margin={{base:"0px", md: "0px 40px 0px 40px"}} minW={["300px","300px","500px","800px","auto"]} textAlign="center" w="60%">
                         <Heading>Welcome to the portfolio website of Paul D'Antonio</Heading>
+                        <Text fontSize="16px">
+                            My email is pbdantonio@gmail.com
+                        </Text>
                         <Text fontSize="20px">
                             My name is Paul D'Antonio, I am a self-taught web developer from Syracuse, NY. I specialize in front-end development utilizing React.
                         </Text>
