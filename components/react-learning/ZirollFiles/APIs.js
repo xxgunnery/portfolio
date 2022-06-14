@@ -7,7 +7,7 @@ function Width() {
     React.useEffect(() => {
         function watchWidth() {
             console.log("Setting up")
-            //setWidth(window.innerWidth)
+            setWidth(window.innerWidth)
         }
 
         window.addEventListener("resize", watchWidth)
