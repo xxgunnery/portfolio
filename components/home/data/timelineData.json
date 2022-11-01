@@ -39,8 +39,8 @@
         "Title": "Graduating Penn State",
         "Languages": "C++",
         "Description": {
-            "0": "I didn't do much with programming during this time. I returned to PSU after my year off and finished up, eventually graduating in May 2018.",
-            "1": "I just wanted to mention - I was forced to take another C++ course during this time. It was the exact same content as my first C++ course, maybe a little bit harder? This course was an absolute breeze even though I didn't remember any C++ from my prior course. I felt very confident because of my year working on The DIY Resource, which attests to how much I learned during that time even without university instruction."
+            "0": "I had to take another C++ course during this time. It was the exact same content as my first C++ course, maybe a little bit harder. This course was an absolute breeze even though I didn't remember any C++ from my prior course. I felt very confident because of my year working on The DIY Resource, which attests to how much I learned during that time even without university instruction.",
+            "1": "I returned to PSU after my year off and finished up, eventually graduating in May 2018."
         }
     },
     "2019": {
@@ -55,12 +55,13 @@
         "Title": "Programming for Me",
         "Languages": "Python, JavaScript, PHP, MySQL, jQuery",
         "Description": {
-            "0": "In late 2020, I quit my job in quality assurance because I felt like it was taking too much from me, I didn't enjoy most  of the responsibilities and I had very little room for vertical movement in the company.",
+            "0": "In late 2020, I quit my job in quality assurance because I felt like it was taking too much from me and I had very little room for vertical movement in the company.",
             "1": "After I quit, I worked on many projects 'for me', whether it was purely hobbyist, or supporting my small business which I still run today with my wife - more details at www.coddledcanine.com. I really advanced my JavaScript at this time, picking up jQuery and creating some GUIs to process data and things like that. See Coddled Admin.",
             "2": "I also added Python to my programming list. I used PyAutoGUI to create a macro to automate some processing on our WooCommerce website. I also made a webscraper where I gathered Axie Market Data for a popular web3 game called Axie Infinity. See Axie Market Data.",
             "3": "Speaking of web3 - it was April 2021 where I first became truly interested in web3. I discovered Ethereum for the first time and I've been on board ever since. I listen to Bankless, use several DApps, follow NFT gaming & try to pick up technical details around blockchain as I go."
         }
-    }, "2022": {
+    },
+    "2022": {
         "Title": "Catching Up With The Times!",
         "Languages": "NodeJS, React.JS, NextJS, TypeScript, Chakra UI, Express, Yarn",
         "Description": {
@@ -69,6 +70,15 @@
             "2": "My first goal is to catch up with the times. I'm focusing front-end web development, but I also recognize that with my limited knowledge, I might be missing out on some technologies that I'd really enjoy! I'm grinding React, NodeJS, NextJS and TypeScript. I seem to add more to the list every week. I want to get some experience and start working!",
             "3": "My strategy over the next few months has the theme of collaboration. I believe that my weaknesses mainly lie in that I have not developed software with others. I'm new dealing with requirements for quality, security, scaleability and standard collaboration techniques that you might see on GitHub such as branching, merging, PRs, etc.",
             "4": "My goal is eventually to transfer to web3, learning Solidity development and deep diving. I'd love to gain enough knowledge eventually to audit EVM compatible smart contracts. Overall I'm very excited for my web development journey and I thank you for reading this far!"
+        }
+    },
+    "2022.5": {
+        "Title": "Axie DoLL - Lead Front End Developer",
+        "Languages": "React.JS, Chakra.UI, Next.JS, NodeJS, MongoDB, EthersJS, WalletConnect",
+        "Description": {
+            "0": "Axie DoLL is an exploding competitive game created for the Axie Infinity Builder's Program. Our web infrastructure currently supports 2000 players and the player base is growing rapidly. As part of a team of 5, I work cooperatively with game developers and my web partner to facilitate the online connections (REST APIs) for the game",
+            "1": "Technical challenges: Seasonal game leaderboards, live operations events, account creation/management, product flash sales ($50,000 revenue in 3 days), user profiles, web3 wallet integrations including secure sign on and payments. Our team also developed and implemented code quality practices such as code review and testing.",
+            "2": "Additional responsibilities: Engaging with community (2000+ Discord users, 8000+ Twitter followers) to collect and translate feedback (bug reports and feature requests) for both the website and the game. I managing tasks and tracking progress."
         }
     }
 }

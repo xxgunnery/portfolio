@@ -1,4 +1,11 @@
 {
+    "Defenders of Lunacian Land": {
+        "Title": "DEFENDERS OF LUNACIAN LAND",
+        "Description": "Defenders of Lunacian Land is an exploding web3 game. I was the lead front end engineer for this project. Please log into the website using user: chrissyp, password: 123456 to see the full functionality.",
+        "HOWTO": "",
+        "Image": "/marketsidekicks.gif",
+        "Link": "https://doll.tioland.com"
+    },
     "Wildy Data": {
         "Title": "WILDY DATA",
         "Description": "WildyData is a React app for Old School Runescape which creates a heatmap of players that I see in the wilderness. Uses an unreleased RuneLite plugin to collect data as I explore the wilderness.",
@@ -12,5 +19,12 @@
         "HOWTO": "Click the 'Mosh ES6' tab for code examples from when I was programming for an ES6 JavaScript tutorial by Mosh Hamedani. 'Mosh ES6' can be viewed with the developer console open to see different outputs on the various tabs. Click the 'Ziroll React' tab to explore examples for when I was programming for a React tutorial by Rob Ziroll!",
         "Image": "/react-learning/tenzies.png",
         "Link": "/react-learning"
+    },"Resume": {
+        "Title": "RESUME",
+        "Description": "My actual resume",
+        "HOWTO": "",
+        "Image": "/resume/resume.png",
+        "Link": "/resume"
     }
+
 }
