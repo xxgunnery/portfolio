@@ -17,7 +17,7 @@
         "Title": "REACT LEARNING",
         "Description": "This app is where I was documenting my learning of React. During courses, I made a UI which was capable of running AND displaying code examples for various functionality",
         "HOWTO": "Click the 'Mosh ES6' tab for code examples from when I was programming for an ES6 JavaScript tutorial by Mosh Hamedani. 'Mosh ES6' can be viewed with the developer console open to see different outputs on the various tabs. Click the 'Ziroll React' tab to explore examples for when I was programming for a React tutorial by Rob Ziroll!",
-        "Image": "/react-learning/tenzies.png",
+        "Image": "/react-learning/tenzies.PNG",
         "Link": "/react-learning"
     },"Resume": {
         "Title": "RESUME",
