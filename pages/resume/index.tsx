@@ -12,7 +12,7 @@ const Home: NextPage = () => {
             <Box w="8.5in" h="10.5in" pt="0.25in" pl="0.25in" border="1px solid rgba(0,0,0,.1)" bg="rgba(0,0,0,.001)">
                 <SimpleGrid columns={10} columnGap="20px">
                     <GridItem colSpan={3} display="flex" justifyContent="center">
-                        <Image w="1.75in" h="1.75in" src="resume/Paul_PFP.png" />
+                        <Image w="1.55in" h="1.55in" src="images/Paul_PFP.png" />
                     </GridItem>
                     <GridItem colSpan={7}>
                         <VStack alignItems="flex-start" bg="blue.600" w="100%" p="0.125in" color="white">
@@ -20,18 +20,18 @@ const Home: NextPage = () => {
                                 Paul D'Antonio
                             </Box>
                             <Box mt="3px!important" borderBottom="1px solid rgba(255,255,255,0.3)" w="100%">
-                                Software Engineer - Front End <Box fontSize="13px" display="inline">(8 Months React, 1 Year jQuery)</Box>
+                                Software Engineer - Full Stack <Box fontSize="13px" display="inline">(8 Months React, 1 Year jQuery)</Box>
                             </Box>
                             <Box fontSize="11px" mt="3px!important">
-                                I am a motivated, analytical, systems driven thinker. I pride myself in being a thoughtful team member first, working to balance meeting product requirements with the strengths and needs of the team. My career has yielded a variety of experiences working in traditional industry and startups and I believe I am prepared for a variety of challenges! I'm currently specializing in Front End engineering, but I am open to other possibilities. 
+                                I am a motivated, analytical, systems driven thinker. I pride myself in being a thoughtful team member first, working to balance meeting product requirements with the strengths and needs of the team. I'm currently specializing in Front End engineering, but I work quite frequently with the back end as well.
                             </Box>
                         </VStack>
                     </GridItem>
                 </SimpleGrid>
 
-                <SimpleGrid columns={10} columnGap="20px">
+                <SimpleGrid columns={11} columnGap="20px">
                     <GridItem colSpan={3} display="flex" justifyContent="center">
-                        <VStack alignItems="flex-start" w="100%" p="0.125in" fontSize="12px">
+                        <VStack alignItems="flex-start" w="100%" p="0.05in" fontSize="12px">
                             <VStack rowGap="0px" w="100%" mt="3px!important">
                                 <Box>
                                     pbdantonio@gmail.com
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                             </VStack>
                             <VStack rowGap="0px" w="100%" mt="0px!important">
                                 <Box>
-                                    Syracuse, NY
+                                    Syracuse, NY 13027
                                 </Box>
                             </VStack>
                             <VStack w="100%" m="5px 0px 5px 0px!important">
@@ -79,11 +79,11 @@ const Home: NextPage = () => {
                             </VStack>
                             <VStack w="100%" alignItems="flex-start" pt=".05in">
                                 <Heading fontSize="20px" borderBottom="1px solid black" w="100%">
-                                    TECH SKILLS
+                                    SKILLS
                                 </Heading>
                                 <VStack w="100%" alignItems="flex-start">
                                     <Box fontSize="12px">
-                                        Frontend - React
+                                        Frontend - ReactJS, jQuery
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
                                         <Box>
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
                                     <Box fontSize="12px">
-                                        Frameworks - Next.JS
+                                        React Frameworks - Next.JS
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
                                         <Box>
@@ -123,11 +123,21 @@ const Home: NextPage = () => {
                                 </VStack>
                                 <VStack w="100%" alignItems="flex-start">
                                     <Box fontSize="12px">
-                                        Databases - MongoDB, SQL
+                                        Databases - MongoDB, SQL, PostgreSQL, Prisma
                                     </Box>
                                     <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
                                         <Box>
                                             <Box bg="blue" w="60%" h="8px" />
+                                        </Box>
+                                    </Box>
+                                </VStack>
+                                <VStack w="100%" alignItems="flex-start">
+                                    <Box fontSize="12px">
+                                        Hosting - Vercel
+                                    </Box>
+                                    <Box mt="0px!important" border="1px solid blue" w="100%" h="10px">
+                                        <Box>
+                                            <Box bg="blue" w="75%" h="8px" />
                                         </Box>
                                     </Box>
                                 </VStack>
@@ -186,21 +196,21 @@ const Home: NextPage = () => {
                         </VStack>
                     </GridItem>
 
-                    <GridItem colSpan={7}>
-                        <VStack alignItems="flex-start" mt=".125in" pr="0.25in" w="100%">
+                    <GridItem colSpan={8}>
+                        <VStack alignItems="flex-start" mt=".125in" pr="0.2in" w="100%">
                             <Heading borderBottom="1px solid black" w="100%" fontSize="20px">
-                                WORK HIGHLIGHTS - <Box display="inline" fontSize="13px">See GitHub and Portfolio for more</Box>
+                                WORK HISTORY - <Box display="inline" fontSize="13px">See GitHub and Portfolio for more</Box>
                             </Heading>
                             <VStack alignItems="flex-start" w="100%">
                                 <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Lead Front End Engineer
+                                    Full Stack Developer
                                 </Heading>
-                                <Heading fontSize="16px" mt="3px!important" w="100%">
+                                <Heading fontSize="15px" mt="3px!important" w="100%">
                                     Axie DoLL - Defenders of Lunacian Land <Link href="https://doll.tioland.com" display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://doll.tioland.com)</Link>
                                 </Heading>
                                 <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
                                     <Box>
-                                        May 2022 - Present (6 MONTHS)
+                                        May 2022 - Present (7 MONTHS)
                                     </Box>
                                     <Box>
                                         Remote | Full Time
@@ -209,13 +219,13 @@ const Home: NextPage = () => {
                                 <VStack ml="10px!important" mt="3px!important">
                                     <UnorderedList w="100%" mt="0px!important" fontSize="12px">
                                         <ListItem>
-                                            Axie DoLL is an exploding competitive game created for the Axie Infinity Builder's Program. Our web infrastructure currently supports 2000 players and the player base is growing rapidly. As part of a team of 5, I work cooperatively with game developers and my web partner to facilitate the online connections (REST APIs) for the game.
+                                            Created web infrastructure for an exploding competitive game, currently supporting 2000 players and the player base is growing rapidly. I collaborated with a team of 4 other developers to facilitate the online connections (REST APIs) for the game.
                                         </ListItem>
                                         <ListItem mt="3px">
-                                            <strong>Technical challenges:</strong> Seasonal game leaderboards, live operations events, account creation/management, product flash sales ($50,000 revenue in 3 days), user profiles, web3 wallet integrations including secure sign on and payments.  Our team also developed and implemented code quality practices such as code review and testing.
+                                            <strong>Technical challenges:</strong> Seasonal game leaderboards, live operations events, account creation/management, digital asset sales ($50,000 revenue in 3 days), user profiles, web3 wallet integrations including secure sign on and payments.  Our team also developed and implemented code quality practices such as code review and testing.
                                         </ListItem>
                                         <ListItem mt="3px">
-                                            <strong>Additional responsibilities:</strong> Engaging with community (2000+ Discord users, 8000+ Twitter followers) to collect and translate feedback (bug reports and feature requests) for both the website and the game. I maintained several Notion tables for managing tasks and tracking progress.
+                                            <strong>Additional responsibilities:</strong> Engaging with community (2000+ Discord users, 8000+ Twitter followers) to collect and translate feedback (bug reports and feature requests) for both the website and the game.
                                         </ListItem>
                                     </UnorderedList>
                                 </VStack>
@@ -225,9 +235,38 @@ const Home: NextPage = () => {
                             </VStack>
                             <VStack alignItems="flex-start" w="100%">
                                 <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Quality Assurance Specialist (Manufacturing)
+                                    Software Developer
                                 </Heading>
-                                <Heading fontSize="16px" mt="3px!important" w="100%">
+                                <Heading fontSize="15px" mt="3px!important" w="100%">
+                                    Various Projects <Link href="https://portfolio-xxgunnery.vercel.app" display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://portfolio-xxgunnery.vercel.app)</Link>
+                                </Heading>
+                                <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
+                                    <Box>
+                                        2016 - 2018 (2 YEARS)
+                                    </Box>
+                                </Flex>
+                                <VStack ml="10px!important" mt="3px!important">
+                                    <UnorderedList w="100%" mt="0px!important" fontSize="12px">
+                                        <ListItem>
+                                            <strong>The DIY Resource:</strong> A web app for distributing instructional tutorials for DIY projects. I built the entire web app from scratch using jQuery, HTML, CSS, and PHP.
+                                        </ListItem>
+                                        <ListItem>
+                                            <strong>LifeTimer:</strong> A productivity application where users time activities throughout their day with the goal of providing statistics back to the user on how they spend their time. I built the entire web app from scratch using jQuery, HTML, CSS, and PHP.
+                                        </ListItem>
+                                        <ListItem>
+                                            <strong>Campsite Finder:</strong> I wrote a fully custom web scraper using Python which collected data from the National Park Service and alerted me through email when a campsite became available.
+                                        </ListItem>
+                                    </UnorderedList>
+                                </VStack>
+                                <VStack mt="0px!important" alignItems="center" justifyContent="center" w="100%" borderTop="1px solid rgba(0,0,0,0.4)" borderBottom="1px solid rgba(0,0,0,0.4)">
+                                    <Box display="inline" fontSize="12px" fontWeight="500" textAlign="center">Technology: jQuery, MySQL, PHP, Python, C++, Wolfram Language, Bootstrap, SASS</Box>
+                                </VStack>
+                            </VStack>
+                            <VStack alignItems="flex-start" w="100%">
+                                <Heading fontSize="16px" color="blue.600" w="100%">
+                                    Quality Assurance Specialist
+                                </Heading>
+                                <Heading fontSize="15px" mt="3px!important" w="100%">
                                     Specialty Granules LLC <Box display="inline" fontSize="14px" fontWeight="500" textDecoration="underline">(https://specialtygranules.com/)</Box>
                                 </Heading>
                                 <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
@@ -244,13 +283,7 @@ const Home: NextPage = () => {
                                             Root cause analysis. Remediate and develop short-term and long-term corrective actions for internal quality issues and customer complaints/inquiries.
                                         </ListItem>
                                         <ListItem>
-                                            Conduct internal audits and document results related to processing equipment and procedural compliance. Participate in external audits of our facilities, providing data and assisting auditors collecting data for our process.
-                                        </ListItem>
-                                        <ListItem>
-                                            Data analysis for determination of process capability, identification of process issues, and process improvement initiatives.
-                                        </ListItem>
-                                        <ListItem>
-                                            Support corporate initiatives for quality and provide support for plant trials, new product development and major process changes.
+                                            Data analysis for determination of process capability and process improvement initiatives.
                                         </ListItem>
                                     </UnorderedList>
                                 </VStack>
@@ -264,7 +297,7 @@ const Home: NextPage = () => {
                             </Heading>
                             <VStack alignItems="flex-start" w="100%">
                                 <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Penn State University (University Park)
+                                    Pennsylvania State University - University Park
                                 </Heading>
                                 <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
                                     <Box>
@@ -275,23 +308,12 @@ const Home: NextPage = () => {
                                     </Box>
                                 </Flex>
                                 <Box fontSize="14px" mt="0px!important">
-                                    B.S. Mining and Mineral Engineering
+                                    B.S. Engineering
                                 </Box>
                             </VStack>
-                            <VStack alignItems="flex-start" w="100%">
-                                <Heading fontSize="16px" color="blue.600" w="100%">
-                                    Onondaga Community College
-                                </Heading>
-                                <Flex justifyContent="space-between" w="100%" fontSize="12px" mt="0!important">
-                                    <Box>
-                                        2013 - 2015
-                                    </Box>
-                                    <Box>
-                                        Syracuse, NY
-                                    </Box>
-                                </Flex>
-                                <Box fontSize="14px" mt="0px!important">
-                                    A.S. Engineering Science
+                            <VStack alignItems="flex-start" w="100%" mt="0px!important" borderTop="1px solid black">
+                                <Box fontSize="12px">
+                                    <strong>+ A.S. Engineering Science</strong> - Onondage Community College - 2013-2015
                                 </Box>
                             </VStack>
 
