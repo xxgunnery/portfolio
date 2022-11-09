@@ -6,10 +6,13 @@ import ReactDOM from 'react-dom/client'
 import Head from 'next/head'
 
 import Home from '../components/home/Home'
+import { VStack } from '@chakra-ui/react';
 
 export default function App() {
 
-  return (
-      <Home />
-  )
+    return (
+        <VStack bg="gray.300">
+            <Home />
+        </VStack>
+    )
 }

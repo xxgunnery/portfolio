@@ -30,7 +30,7 @@ function TimeBlurb(props) {
             onClick={(e) => props.closeTimeBlurb(e, width, offset)}
             boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.8)"
             borderRadius="5px"
-            bg="#FFB74D"
+            bg="orange.300"
             p={{ base: "8px", md: "10px" }}
             display="flex"
             flexDirection="column"
@@ -61,7 +61,7 @@ function TimeBlurb(props) {
                 fontSize={{ base: "10px", md: "14px" }}
                 border="1px solid black"
                 bg="white"
-                borderRadius="15px"
+                borderRadius="4px"
             >
                 {description}
             </Box>
@@ -120,10 +120,13 @@ export default function DevTimeline() {
     }
 
     return (
-        <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mt="10px" p="20px 0px 20px 0px" bg="#757575">
-            <Heading mb="20px" textAlign="center" bg="white" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black" fontSize={{ base: "18px", md: "25px" }}>
+        <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mt="10px" p="20px 0px 20px 0px" bg="gray.700">
+            <Heading textAlign="center" bg="white" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black" fontSize={{ base: "18px", md: "25px" }}>
                 Development Timeline
             </Heading>
+            <Box color="white" m="0px 0px 15px 0px!important" fontSize="14px">
+                (Click or tap to open experience)
+            </Box>
             <SimpleGrid justifyItems="center" width="90%" columns={11} spacing="10px">
                 <GridItem colSpan={5} w="100%" position="relative">
                     {years.leftYears}

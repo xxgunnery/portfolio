@@ -1,6 +1,7 @@
 import { Box, ColorModeScript, Flex, GridItem, Heading, Image, Link, ListItem, SimpleGrid, UnorderedList, useColorMode, useMediaQuery, VStack } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Navbar from "../../components/Navbar";
 import styles from "./index.module.css";
 
 const Home: NextPage = () => {
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
 
     return (
         <VStack mt="5px" fontFamily="verdana">
+            <Navbar />
             <Box w="8.5in" h="10.5in" pt="0.25in" pl="0.25in" border="1px solid rgba(0,0,0,.1)" bg="rgba(0,0,0,.001)">
                 <SimpleGrid columns={10} columnGap="20px">
                     <GridItem colSpan={3} display="flex" justifyContent="center">
