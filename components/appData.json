@@ -31,7 +31,7 @@
         "Title": "CROCKPOT RECIPES",
         "Description": "I worked as a freelancer to create a shopping list generator for a crockpot recipe website. This app is originally a jQuery app converted into a React app just for this portfolio.",
         "HOWTO": "Select recipes and view information about them. Select 'add to list' to create a queue of recipes to coook and shop for. Hit 'create shopping list' to view a printable list of incredients to buy (categorized) as well as a list of instructions for cooking.",
-        "Image": "/images/crockpot.png",
+        "Image": "/crockpot/crockpot.png",
         "Link": "/crockpot"
     }
 
