@@ -38,7 +38,7 @@
         "Title": "LIFETIMER PRODUCTIVITY",
         "Description": "A productivity application where users time activities throughout their day with the goal of providing statistics back to the user on how they spend their time. I built the entire web app from scratch using jQuery, HTML, CSS, and PHP. This app has been converted to React and it currently doesn't work properly.",
         "HOWTO": "Honestly this application does not work properly in my React port. In it's glory it was wonderful :D. The basic instruction would be to choose categories and click the 'start' button to begin recording your time. You can pause the app at any time. Make sure to save your session by hitting the save button!",
-        "Image": "/lifetimer/lifetimer.png",
+        "Image": "/lifetimer/lifetimerpic.png",
         "Link": "/lifetimer"
     }
 
