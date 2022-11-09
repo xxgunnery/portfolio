@@ -162,6 +162,42 @@ const Home = () => {
         setRecipeData({ nutritiondata, ingredientdata, instructiondata, ingredientunits })
     }
 
+    //Printelem an popup to print specific page content
+    function PrintElem(elem, elem2) {
+        Popup(jQuery(elem).html(), jQuery(elem2).html());
+    }
+
+    function Popup(data, data2) {
+        //Open up a new window and print the document contents of the new window
+        var mywindow = window.open('', 'new div', 'height=400,width=600');
+        mywindow.document.write('<html><head><title>NLW Grocery List</title>');
+        mywindow.document.write('<style> #aiResults { min-height: 900px; padding: 10px; font-family: Arial; display: block; margin-top: 10px; border-bottom: 1px solid black; page-break-after: always; } #aiResults div { font-size: 18px; font-weight: 600; }#aiResults li {font-size: 16px; font-weight: normal;} #aiResults section { page-break-inside: avoid;font-size: 18px; margin-left: 10px; border-bottom: 1px solid black;} #aiResults2 { padding: 10px; font-family: Arial; display: block; margin-top: 10px; border-bottom: 1px solid black; } #aiResults2 div { font-size: 18px; font-weight: 600; }#aiResults2 li {font-size: 16px; font-weight: normal;} #aiResults2 .recipeIngredients { page-break-inside: avoid; padding-left: 5px; padding-right: 5px; margin-bottom: 5px; border-top: 2px solid black; font-size: 18px;} #aiResults2 .recipeInstructions { page-break-inside: avoid; margin-left: 10px; margin-right: 10px; padding: 7.5px; background-color: #fafafa; border: 1px solid black; margin-bottom: 5px; font-size: 18px;} #aiResults2 .recipeContainer {page-break-inside: avoid;} #aiResults2 p { font-size: 16px; font-weight: normal;}</style>');
+        mywindow.document.write('</head><body>');
+        mywindow.document.write('<div style="text-align: center; font-weight: 600; font-size: 25px;">Thank you for choosing...</div><img src="http://www.nlwtestsite1982.biz/wp-content/uploads/2017/03/logo2.png" style="width: 300px; height: 50px; display: block; margin: auto;"/>');
+        mywindow.document.write('<div id="aiResults">');
+        mywindow.document.write(data);
+        mywindow.document.write('</div>');
+        mywindow.document.write('<div id="aiResults2">');
+        mywindow.document.write(data2);
+        mywindow.document.write('</div>');
+        mywindow.document.write('</body></html>');
+
+        //wait 1000 ms to print the window.
+        setTimeout(function () {
+            mywindow.print();
+        }, 1000);
+
+        //Wait 1500 ms to close the print window, so all data is read.
+        setTimeout(function () {
+            mywindow.close();
+        }, 2000);
+
+
+        return true;
+    }
+
+    var emailed = [];
+
     function RecipeContainer({ recipe }) {
         return (
             <Flex className="col-xs-12" alignItems="center" justifyContent="flex-start" w="100%" columnGap="10px">
@@ -517,43 +553,6 @@ const Home = () => {
                 }
             }
         );
-
-
-        //Printelem an popup to print specific page content
-        function PrintElem(elem, elem2) {
-            Popup(jQuery(elem).html(), jQuery(elem2).html());
-        }
-
-        function Popup(data, data2) {
-            //Open up a new window and print the document contents of the new window
-            var mywindow = window.open('', 'new div', 'height=400,width=600');
-            mywindow.document.write('<html><head><title>NLW Grocery List</title>');
-            mywindow.document.write('<style> #aiResults { min-height: 900px; padding: 10px; font-family: Arial; display: block; margin-top: 10px; border-bottom: 1px solid black; page-break-after: always; } #aiResults div { font-size: 18px; font-weight: 600; }#aiResults li {font-size: 16px; font-weight: normal;} #aiResults section { page-break-inside: avoid;font-size: 18px; margin-left: 10px; border-bottom: 1px solid black;} #aiResults2 { padding: 10px; font-family: Arial; display: block; margin-top: 10px; border-bottom: 1px solid black; } #aiResults2 div { font-size: 18px; font-weight: 600; }#aiResults2 li {font-size: 16px; font-weight: normal;} #aiResults2 .recipeIngredients { page-break-inside: avoid; padding-left: 5px; padding-right: 5px; margin-bottom: 5px; border-top: 2px solid black; font-size: 18px;} #aiResults2 .recipeInstructions { page-break-inside: avoid; margin-left: 10px; margin-right: 10px; padding: 7.5px; background-color: #fafafa; border: 1px solid black; margin-bottom: 5px; font-size: 18px;} #aiResults2 .recipeContainer {page-break-inside: avoid;} #aiResults2 p { font-size: 16px; font-weight: normal;}</style>');
-            mywindow.document.write('</head><body>');
-            mywindow.document.write('<div style="text-align: center; font-weight: 600; font-size: 25px;">Thank you for choosing...</div><img src="http://www.nlwtestsite1982.biz/wp-content/uploads/2017/03/logo2.png" style="width: 300px; height: 50px; display: block; margin: auto;"/>');
-            mywindow.document.write('<div id="aiResults">');
-            mywindow.document.write(data);
-            mywindow.document.write('</div>');
-            mywindow.document.write('<div id="aiResults2">');
-            mywindow.document.write(data2);
-            mywindow.document.write('</div>');
-            mywindow.document.write('</body></html>');
-
-            //wait 1000 ms to print the window.
-            setTimeout(function () {
-                mywindow.print();
-            }, 1000);
-
-            //Wait 1500 ms to close the print window, so all data is read.
-            setTimeout(function () {
-                mywindow.close();
-            }, 2000);
-
-
-            return true;
-        }
-
-        var emailed = [];
     }
 
     return (
