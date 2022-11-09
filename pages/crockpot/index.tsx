@@ -3,7 +3,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import React from "react"
 import styles from "./index.module.css";
-import jsdom from "jsdom"
 import jQuery from "jquery"
 import { crockpotData } from "../../public/crockpot/ai_crockpotdata.js";
 import Navbar from "../../components/Navbar";
