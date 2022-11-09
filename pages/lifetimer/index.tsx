@@ -4,14 +4,13 @@ import React from "react"
 import jQuery from "jquery"
 import { categories } from "../../public/lifetimer/lifetimerdata";
 import Navbar from "../../components/Navbar"
-import anychart from 'anychart'
+import anychart from "anychart/index.js"
 import AppBlurb from "../../components/AppBlurb"
 import appData from "../../components/appData.json"
 
 const Home = () => {
 
     const [areChartsLoaded, setAreChartsLoaded] = React.useState(false)
-
 
     if (typeof window !== "undefined") {
         jQuery(document).ready(
