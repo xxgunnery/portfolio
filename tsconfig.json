@@ -24,7 +24,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/lifetimer/index.tsx"  ],
   "exclude": [
     "node_modules"
   ]

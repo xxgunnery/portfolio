@@ -51,6 +51,7 @@ export default function Apps() {
                 <AppCard col={{ base: 3, md: 1 }} appName={"React Learning"} />
                 <AppCard col={{ base: 3, md: 1 }} appName={"Resume"} />
                 <AppCard col={{ base: 3, md: 1 }} appName={"Crockpot"} />
+                <AppCard col={{ base: 3, md: 1 }} appName={"LifeTimer"} />
             </SimpleGrid>
         </Flex>
     )

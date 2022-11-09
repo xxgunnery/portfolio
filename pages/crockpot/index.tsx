@@ -6,6 +6,9 @@ import styles from "./index.module.css";
 import jQuery from "jquery"
 import { crockpotData } from "../../public/crockpot/ai_crockpotdata.js";
 import Navbar from "../../components/Navbar";
+import AppBlurb from "../../components/AppBlurb"
+import appData from "../../components/appData.json"
+
 
 const Home = () => {
 
@@ -543,6 +546,7 @@ const Home = () => {
     return (
         <VStack mt="5px" fontFamily="verdana">
             <Navbar />
+            <AppBlurb howto={appData['Crockpot'].HOWTO} title={appData['Crockpot'].Title}/>
             <div className="mainContainer">
                 <div className="projectContainer">
                     <div className="bootstrap-iso">
