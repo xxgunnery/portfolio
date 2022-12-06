@@ -1,4 +1,11 @@
 {
+    "Axie-Cute": {
+        "Title": "Axie-Cute",
+        "Description": "Axie-Cute uses NextJS with a PostgresQL database hosted on Google Cloud for rating axies in the NFT project Axie Infinity. This application is going to be part of the Axie Infinity Creator's Program.",
+        "HOWTO": "",
+        "Image": "/images/axie-9298317.png",
+        "Link": "https://axie-cute.app"
+    },
     "Defenders of Lunacian Land": {
         "Title": "DEFENDERS OF LUNACIAN LAND",
         "Description": "Defenders of Lunacian Land is an exploding web3 game. I was the lead front end engineer for this project. Please log into the website using user: chrissyp, password: 123456 to see the full functionality.",

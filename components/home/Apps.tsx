@@ -46,6 +46,7 @@ export default function Apps() {
                 My Applications
             </Heading>
             <SimpleGrid width="90%" columns={3} spacing="40px">
+                <AppCard col={{ base: 3, md: 1 }} appName={"Axie-Cute"} />
                 <AppCard col={{ base: 3, md: 1 }} appName={"Defenders of Lunacian Land"} />
                 <AppCard col={{ base: 3, md: 1 }} appName={"Wildy Data"} />
                 <AppCard col={{ base: 3, md: 1 }} appName={"React Learning"} />
