@@ -42,7 +42,7 @@ function TimeBlurb(props) {
                 style={{ pointerEvents: "none" }}
                 pb="5px"
                 borderRadius="4px"
-                bg="white"
+                bg="gray.200"
                 w="100%"
                 border="3px solid black"
                 fontSize={{ base: "12px", md: "18px" }}
@@ -60,7 +60,7 @@ function TimeBlurb(props) {
                 style={{ height: "0", visibility: "hidden", pointerEvents: "none" }}
                 fontSize={{ base: "10px", md: "14px" }}
                 border="1px solid black"
-                bg="white"
+                bg="gray.200"
                 borderRadius="4px"
             >
                 {description}
@@ -121,7 +121,7 @@ export default function DevTimeline() {
 
     return (
         <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mt="10px" p="20px 0px 20px 0px" bg="gray.700">
-            <Heading textAlign="center" bg="white" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black" fontSize={{ base: "18px", md: "25px" }}>
+            <Heading textAlign="center" bg="gray.200" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black" fontSize={{ base: "18px", md: "25px" }}>
                 Development Timeline
             </Heading>
             <Box color="white" m="0px 0px 15px 0px!important" fontSize="14px">

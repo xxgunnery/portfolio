@@ -26,10 +26,10 @@ function AppCard(props) {
                 _hover={{ textDecoration: "none", color: "black" }}
                 href={appData[props.appName]["Link"]}
             >
-                <Heading borderRadius="5px" bg="white" w="100%" border="3px solid black" fontSize="25px">
+                <Heading borderRadius="5px" bg="gray.200" w="100%" border="3px solid black" fontSize="25px">
                     {appData[props.appName]["Title"]}
                 </Heading>
-                <Text fontSize="16px" border="1px solid black" p="10px" bg="white" borderRadius="5px" mt="10px">
+                <Text fontSize="16px" border="1px solid black" p="10px" bg="gray.200" borderRadius="5px" mt="10px">
                     {appData[props.appName]["Description"]}
                 </Text>
                 <Image borderRadius="8px" border="6px solid black" mt="15px" src={appData[props.appName]["Image"]} width="300px" height="300px" />
@@ -41,7 +41,7 @@ function AppCard(props) {
 export default function Apps() {
     return (
         <Flex flexDirection="column" color="black" alignItems="center" justifyContent="center" w="100%" mb="10px" mt="10px" p="20px 0px 20px 0px">
-            <Heading mb={{ base: "15px", md: "30px" }} textAlign="center" bg="white" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black"
+            <Heading mb={{ base: "15px", md: "30px" }} textAlign="center" bg="gray.200" p="5px 10px 5px 10px" borderRadius="10px" border="3px solid black"
                 fontSize={{ base: "18px", md: "25px" }}>
                 My Applications
             </Heading>
